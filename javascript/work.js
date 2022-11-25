@@ -15,11 +15,11 @@ burger.onclick = function () {
       socialmedia.style.cursor='none'
       sayac++;
     } else if (sayac === 1) {
-      console.log("dokundu");
+    
       menu.style.zIndex = '-3';
       menu.style.background = 'transparent'
       menu.style.opacity = '0';
-      work.style.opacity='0';
+      work.style.opacity='1';
       socialmedia.style.opacity='1'; 
       socialmedia.style.cursor='pointer'
       sayac--;
