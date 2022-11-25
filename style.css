@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing:border-box;
   font-family: "Times New Roman", Times, serif;
 }
 html {
@@ -85,7 +85,7 @@ button {
 a {
   text-decoration: none;
   text-transform: uppercase;
-  z-index: 999;
+  z-index: -999;
 }
 .menu a:hover {
   color: yellowgreen;
