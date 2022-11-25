@@ -37,7 +37,7 @@
 }
 
 .container .card:hover .face.face1{
-  background: #0585a8;
+  background: linear-gradient(to top right,red,orange);
   transform: translateY(0);
 }
 
@@ -89,15 +89,12 @@
   display:  inline-block;
   text-decoration: none;
   font-weight: 900;
-  color: #ff2600;
+  color: black;
   padding: 5px;
-  border: 1px solid #ff2600;
-  border-radius: 10px;
+
 }
 
 .container .card .face.face2 .content a:hover{
-  background: #0585a8;
-  color: #fff;
-  border: #0585a8;
+  color: yellowgreen;
   transition: 0.3s;
 }
