@@ -1,13 +1,13 @@
 const burger = document.querySelector('.navbar-burger');
 const menu = document.querySelector('.menu');
 const gizle = document.querySelector('.gizle');
-const analogo = document.querySelector('.jsimg2');
+const work =document.querySelector('.containermain');
+const logo = document.querySelector('.navbar');
+work.style.display = 'none';
 menu.style.opacity = '0';
 menu.style.zIndex = '-1';
 
 var sayac = 0;
-
-
 burger.onclick=function(){
   
     if (sayac === 0) {

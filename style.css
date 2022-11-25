@@ -70,7 +70,7 @@ button {
     position: absolute;
     width: 100%;
     text-align: center;
-    bottom: 8vw;
+    bottom: -25vw;
     color: hsla(360, 45%, 95%, 0.9);
     font-family: "Montserrat", sans-serif;
     letter-spacing: 0.8em;
@@ -155,7 +155,7 @@ footer {
   bottom: 0;
   
   width: 100%;
-  position: sticky;
+  position: fixed;
 }
 .socialmedia{
   position: absolute;
