@@ -24,8 +24,10 @@ burger.onclick = function () {
     sayac--;
   }
 };
+
+
 var typing=new Typed(".text", {
-  strings: ["", "Youtuber", "Freelancer", "Graphics Designer", "Web Designer", "Web Developer"],
+  strings: ["Habil Yusuf Ayhan","Habil Yusuf Ayhan", "Freelancer","Freelancer", "Graphics Designer","Graphics Designer", "Web Designer","Web Designer", "Web Developer","Web Developer"],
   typeSpeed: 100,
   backSpeed: 40,
   loop: true,

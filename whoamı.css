@@ -1,18 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 .iam{
     color: white;
       font-size: 55px;
       padding: 15px;
       font-family: sans-serif;
+      font-family: 'Oswald', sans-serif;
+
   }
   .text{
     color: white;
-      border-right: 2px solid yellowgreen;
       font-size: 55px;
       font-family: sans-serif;
       color: yellowgreen;
       display: table-cell;
-      
-      
+      caret-color: transparent;
+      font-family: 'Oswald', sans-serif;
+
      
   }
   main{
@@ -22,7 +26,25 @@
     flex-direction: row;
     justify-content: center;
     padding-top: 10rem;
+ 
   }
 .backgroundcol{
     z-index: -1;
+}
+.typed-cursor{
+  font-size: 50px;
+  color: yellowgreen;
+  font-weight: 2px;
+  
+}
+.txt{
+  position: absolute;
+  top: 20vw;
+  width: 800px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+p{
+  font-family: 'Poor Story', cursive;
 }

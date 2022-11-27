@@ -207,9 +207,10 @@ a i{
  100%{ transform: scale(1);}
 }
 @keyframes github{
-  0%{color: rgb(44, 41, 41);}
-  50%{color: rgb(98, 23, 98);}
-  100%{color:rgb(44, 41, 41);}
+  0%{color: white;}
+  33%{color: rgb(98, 23, 98);}
+  66%{color:rgb(44, 41, 41);}
+  100%{color:white;}
  }
 .gizle{
   top: 0;
@@ -229,9 +230,7 @@ a i{
 #twitter i:hover{
   color:#00ffff;
 }
-#github i:hover{
-  color: rgb(108, 105, 105);
-}
+
 #youtube i:hover{
   color: red;
 }
