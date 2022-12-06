@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+.certificatemain{
+    display: flex;
+    gap: 90px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+}
+.certificate img{
+    transition: 300ms ease-in-out;
+    width: 200px;
+
+}
+
+.certificate{
+    display: flex;
+    justify-content: center;
+    transition: 300ms ease-in-out;
+    flex-direction: column;
+    color: white;
+    
+}
+.certificate h2{
+    opacity: 0;
+    position: relative;
+    bottom: 50px;
+    font-family: 'Poor Story', cursive;
+    margin: 0;
+    top: -10px;
+    transition: 0.3s;
+}
+.certificate + .certificate{
+    margin-left: -10%;
+}
+
+.certificate img:hover{
+    
+    transform: rotate(-4deg);
+    transform: translateX(-60px);
+}
+
