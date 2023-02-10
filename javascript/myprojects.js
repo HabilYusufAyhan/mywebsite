@@ -3,7 +3,7 @@ const menu = document.querySelector(".menu");
 const socialmedia = document.querySelector(".socialmedia");
 menu.style.opacity = '0';
 menu.style.zIndex = '-999';
-
+const api = "https://api.github.com/users/HabilYusufAyhan/repos";
 
 var sayac = 0;
 
@@ -25,3 +25,17 @@ burger.onclick = function () {
   }
 };
 
+user(api);
+async function user(api) {
+  const resp = await fetch(api);
+  const respData = await resp.json();
+
+  for (let index = 0; index < respData.length; index++) {
+    console.log(respData[index].name);
+    console.log(respData[index].language);
+    console.log(respData[index].svn_url);
+    
+    
+  }
+
+}
