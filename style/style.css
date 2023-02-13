@@ -273,7 +273,7 @@ body.open .menu > a {
  @keyframes fade_text {
     0%  { opacity:1;}
     10%  { opacity:.8; }
-    25%  { opacity .5; }
+    25%  { opacity: .5; }
     50%  { opacity:.3; }
     65%  { opacity:.5; }
     90%  { opacity: .8; }
@@ -282,7 +282,7 @@ body.open .menu > a {
   @-o-keyframes fade_text{
       0%  { opacity:1;}
     10%  { opacity:.8; }
-    25%  { opacity .5; }
+    25%  { opacity: .5; }
     50%  { opacity:.3; }
     65%  { opacity:.5; }
     90%  { opacity: .8; }
@@ -291,7 +291,7 @@ body.open .menu > a {
   @-moz-keyframes fade_text{
      0%  { opacity:1;}
     10%  { opacity:.8;}
-    25%  { opacity .5; }
+    25%  { opacity: .5; }
     50%  { opacity:.3; }
     65%  { opacity:.5; }
     90%  { opacity: .8; }
@@ -299,8 +299,8 @@ body.open .menu > a {
   }
   @-webkit-keyframes fade_text{
      0%  { opacity:1;}
-    10%  { opacity:.8; }
-    25%  { opacity .5; }
+    10%  { opacity:.8;}
+    25%  { opacity: .5; }
     50%  { opacity:.3; }
     65%  { opacity:.5; }
     90%  { opacity: .8; }

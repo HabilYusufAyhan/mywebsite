@@ -46,6 +46,7 @@ async function user(api) {
    <h2 class="project-name">${respData[index].name}</h2>
     <p class="project-p">${respData[index].description}</p>
     `
+   
     const adduser2 = document.createElement("div");
     adduser2.classList.add('project-language');
     for (let datalang in langdata) {
@@ -64,7 +65,9 @@ async function user(api) {
       adduser.appendChild(adduser2);
       adduser2.appendChild(adduser3);
     }
-   
+    if (respData[index].description == 'under development') {
+      projectssection.childNodes[index+1].firstElementChild.style.color = 'yellow'
+    }
   }
 }
 

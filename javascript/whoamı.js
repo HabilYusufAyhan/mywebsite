@@ -27,7 +27,7 @@ burger.onclick = function () {
 
 
 var typing=new Typed(".text", {
-  strings: ["Habil Yusuf Ayhan","Habil Yusuf Ayhan", "Freelancer","Freelancer", "Graphics Designer","Graphics Designer", "Web Designer","Web Designer", "Web Developer","Web Developer"],
+  strings: ["Habil Yusuf Ayhan","Habil Yusuf Ayhan", "Freelancer","Freelancer", "Graphic Designer","Graphic Designer", "Web Designer","Web Designer", "Web Developer","Web Developer"],
   typeSpeed: 100,
   backSpeed: 40,
   loop: true,
