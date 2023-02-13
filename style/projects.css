@@ -22,16 +22,22 @@
   background-color: rgb(0, 0, 0,0.2);
   padding: 30px;
   box-shadow: 0px 0px 20px 1px #7854af;
-  min-width: 500px;
+  width: 550px;
+  justify-content: center;
   cursor: pointer;
   transition: 0.3s;
   color: white;
+  height: 200px;
 }
 .projects:hover{
   box-shadow: 0px 0px 20px 1px white;
 }
 
-
+.project-p{
+  min-width: 90%;
+  margin: 0;
+  text-align: center;
+}
 
 .project-language{
   display: flex;
@@ -48,6 +54,8 @@ body{
   text-transform: uppercase;
   font-family: "Poor Story", cursive;
   max-width: 400px;
+  margin: 0;
+  margin-bottom: 10px;
 }
 .title{
   color: white;

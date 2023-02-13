@@ -44,6 +44,7 @@ async function user(api) {
     adduser.classList.add('projects');
     adduser.innerHTML = `
    <h2 class="project-name">${respData[index].name}</h2>
+    <p class="project-p">${respData[index].description}</p>
     `
     const adduser2 = document.createElement("div");
     adduser2.classList.add('project-language');
