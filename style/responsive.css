@@ -1,0 +1,66 @@
+
+@media (max-width: 1140px) {
+  .logotext {
+    font-size: 30px;
+  }
+  .web {
+    font-size: 3vw;
+  }
+  .txt{
+    bottom: 80px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 720px) {
+  .logotext {
+    font-size: 15px;
+  }
+  .web {
+    font-size: 2vw;
+  }
+
+}
+@media (max-width: 575px) {
+    .iam{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 30px;
+    }
+  .txt {
+    width: 90%;
+    font-size: 14px;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 70px;
+  }
+  .projects {
+    min-width: 90%;
+  }
+  .logotext {
+    font-size: 20px;
+  }
+  .web {
+    font-size: 3vw;
+  }
+  .project-name {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .project-p {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .language {
+    font-size: 12px;
+    margin: 5px;
+  }
+  .project-language {
+    flex-wrap: nowrap;
+    margin-top: 10px;
+  }
+}

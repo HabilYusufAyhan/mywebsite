@@ -9,8 +9,14 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  transition: 0.3s;
 }
 .language{
+  
+  opacity: 0;
+  transition: 0.3s;
+}
+.language span{
   font-family: 'Roboto Mono', monospace;
 }
 .projects{
