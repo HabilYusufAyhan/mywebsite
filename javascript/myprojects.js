@@ -37,9 +37,7 @@ async function user(api) {
 
   const resp = await fetch(api);
   const respData = await resp.json();
-  if (respData == undefined) {
-    console.log('api a ulaşılamadı');
-  }
+ 
   for (let index = 0; index < respData.length; index++) {
  
 
