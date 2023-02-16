@@ -29,19 +29,24 @@ burger.onclick = function () {
     sayac--;
   }
 };
+// Octokit.js
+// https://github.com/octokit/core.js#readme
 
 user(api);
 async function user(api) {
+
   const resp = await fetch(api);
   const respData = await resp.json();
-
+  if (respData == undefined) {
+    console.log('api a ulaşılamadı');
+  }
   for (let index = 0; index < respData.length; index++) {
-    var sayi = 0;
  
 
     const languagesurl = respData[index].languages_url;
     const lang = await fetch(languagesurl);
     const langdata = await lang.json();
+    
     const adduser = document.createElement("a");
     adduser.href = respData[index].svn_url
     adduser.target = '_blank';
