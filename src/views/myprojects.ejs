@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/projects.css" />
     <link rel="stylesheet" href="/css/responsive.css" />
     <link
       rel="stylesheet"
@@ -11,10 +16,6 @@
       referrerpolicy="no-referrer"
     />
     <link rel="shortcut icon" href="/img/logo.png" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Habil Yusuf Ayhan</title>
   </head>
   <body>
     <div class="backgroundcol"></div>
@@ -32,11 +33,20 @@
       </a>
       <a href="/whoami" style="animation-delay: 0.1s" class="who"> About Me </a>
     </nav>
-
-    <div class="gizle">
-      <h2 class="logotext">Habil Yusuf Ayhan</h2>
-      <h3 class="web">Web Developer</h3>
-    </div>
+    <h2 class="title">My Projects</h2>
+    <section class="projects-section">
+      <% for( let index = 0; index < data.length; index++ ) { %>
+      <a href="<%- data[index].svn_url %>" target="_blank" class="projects">
+        <h2 class="project-name"><%- data[index].name %></h2>
+        <p class="project-p"><%- data[index].description %></p>
+        <div class="project-language">
+          <p class="language" style="opacity: 1">
+            <span>C#</span> = <span>100.00%</span>
+          </p>
+        </div></a
+      >
+      <% } %>
+    </section>
 
     <footer>
       <div class="socialmedia">
@@ -54,11 +64,6 @@
         ></a>
       </div>
     </footer>
-    <script src="/js/index.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
-      integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
-      crossorigin="anonymous"
-    ></script>
   </body>
+  <script src="/js/myprojects.js"></script>
 </html>
